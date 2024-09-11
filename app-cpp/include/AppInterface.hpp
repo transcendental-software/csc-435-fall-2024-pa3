@@ -5,8 +5,8 @@
 
 #include "ProcessingEngine.hpp"
 
-class AppInterface
-{
+class AppInterface {
+    // keep a reference to the processing engine
     std::shared_ptr<ProcessingEngine> engine;
 
     public:

@@ -67,7 +67,7 @@ To run the C++ solution (after you build the project) use the following command:
 ```
 ./build/file-retrieval-engine 4
 > index ../datasets/dataset1
-Completed indexing 134321105 bytes of data
+Completed indexing 134321105 bytes of data with 4 worker threads
 Completed indexing in 5.386 seconds
 > search at
 Search completed in 0.4 seconds
@@ -117,7 +117,7 @@ java -cp target/app-java-1.0-SNAPSHOT.jar csc435.app.FileRetrievalEngine <number
 ```
 java -cp target/app-java-1.0-SNAPSHOT.jar csc435.app.FileRetrievalEngine 4
 > index ../datasets/dataset1
-Completed indexing 134321105 bytes of data
+Completed indexing 134321105 bytes of data with 4 worker threads
 Completed indexing in 5.386 seconds
 > search at
 Search completed in 0.4 seconds
