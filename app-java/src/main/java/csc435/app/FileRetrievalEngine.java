@@ -2,7 +2,7 @@ package csc435.app;
 
 public class FileRetrievalEngine 
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
         int numWorkerThreads = 1;
 

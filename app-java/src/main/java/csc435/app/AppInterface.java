@@ -8,7 +8,6 @@ public class AppInterface {
 
     public AppInterface(ProcessingEngine engine) {
         this.engine = engine;
-        // TO-DO implement constructor
     }
 
     public void readCommands() {

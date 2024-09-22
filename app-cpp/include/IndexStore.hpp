@@ -22,8 +22,7 @@ class IndexStore {
 
         // default virtual destructor
         virtual ~IndexStore() = default;
-
-        // TO-DO re-declare index update and index lookup methods
+        
         long putDocument(std::string documentPath);
         std::string getDocument(long documentNumber);
         void updateIndex(long documentNumber, const std::unordered_map<std::string, long> &wordFrequencies);

@@ -42,7 +42,6 @@ public class ProcessingEngine {
     public ProcessingEngine(IndexStore store, int numWorkerThreads) {
         this.store = store;
         this.numWorkerThreads = numWorkerThreads;
-        // TO-DO implement constructor
     }
 
     public IndexResult indexFiles(String folderPath) {
